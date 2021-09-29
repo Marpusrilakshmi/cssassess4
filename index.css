@@ -1,0 +1,116 @@
+
+.heading{
+    background-image: linear-gradient(to right,red,green,yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.menu {
+    border: 2px solid red;
+    list-style: inside;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 14%;
+    margin-right: 18%;
+    border-radius: 15px;
+}
+.paras {
+    background-color: mediumaquamarine;
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 15px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.box {
+    border: 1px solid darkgreen;
+    background-color: aqua;
+    padding: 10px;
+    width: 317px;
+    height: 74px;
+    border-radius: 23px;
+}
+.perform{
+    background-image: linear-gradient(to right,red,orange, yellow,orange,red);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness:2px;
+    height: 40px;
+}
+.parent {
+    background-image: radial-gradient(rgb(2, 134, 190),rgb(3, 134, 190),darkgreen);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 235px;
+    margin-top: 10px;
+}
+.child {
+    border: 2px solid red;
+    background-color: yellow;
+    width: 257px;
+    text-align: center;
+    border-radius: 26px;
+    height: 132px;
+    margin: 15px;
+    margin-top: 52px;
+    text-decoration: underline;
+}
+.grid{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 29% 29% 29% 9%;
+gap: 10px;
+width: 100%;
+margin-top: 10px;
+
+}
+.grid1{
+    grid-column: 1/6;
+    background-color: crimson;
+    color: white;
+    text-align: center;   
+    padding-bottom: 5px;
+    font-size: large;
+    font-weight: bold;
+}    
+.grid2{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+background-color: green;
+}
+.grid3{
+    color: white;
+    background-color: blue;
+    font-size: large;
+font-weight: bold;}
+.grid4{
+    color: white;
+    background-color: indigo;
+}
+.grid5{
+    color: white;
+    background-color: black;
+    grid-row: 2/4;
+    grid-column: 4/6;
+}
+.grid6{
+    color: white;
+    background-color: orange;
+    grid-column: 1/4;
+    grid-row: 3/3;
+}
+.grid7{
+    color: white;
+    background-color: seagreen;
+    grid-column: 1/6;
+    text-align: center;
+}
